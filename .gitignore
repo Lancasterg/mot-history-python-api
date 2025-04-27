@@ -4,3 +4,5 @@ test/live_test
 
 *__pycache__*
 */__pycache/*
+
+.pytest_cache
