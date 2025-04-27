@@ -4,7 +4,8 @@ version = "0.1.0"
 description = ""
 authors = ["Lancasterg <lancaster0180@gmail.com>"]
 readme = "README.md"
-packages = [{include = "mot_history_api"}]
+packages = [{include = "mot_history"}]
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -15,7 +16,4 @@ pytest = "^8.3.5"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-package-mode = false
 
