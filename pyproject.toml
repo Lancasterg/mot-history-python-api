@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mot-history-api"
+version = "0.1.0"
+description = ""
+authors = ["Lancasterg <lancaster0180@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mot_history_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pytest = "^8.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
